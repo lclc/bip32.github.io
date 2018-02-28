@@ -68,6 +68,14 @@
             private_prefix: 0x6f+0x80,
             bip32_public: LITECOIN_TESTNET_PUBLIC,
             bip32_private: LITECOIN_TESTNET_PRIVATE
+        },
+        ftc_main: {
+            name: "Feathercoin",
+            network: "Mainnet",
+            prefix: 0x8E,
+            private_prefix: 0x30+0x80,
+            bip32_public: FEATHERCOIN_MAINNET_PUBLIC,
+            bip32_private: FEATHERCOIN_MAINNET_PRIVATE
         }
     };
 
